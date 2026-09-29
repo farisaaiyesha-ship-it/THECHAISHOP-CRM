@@ -1,0 +1,63 @@
+{
+  "customers": [
+    {
+      "id": "c1",
+      "name": "Ananya Traders",
+      "email": "ananya@example.com",
+      "phone": "+91 98765 43210",
+      "address": "Madurai, Tamil Nadu",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-01T10:00:00.000Z"
+    },
+    {
+      "id": "c2",
+      "name": "Green Leaf Cafe",
+      "email": "greenleaf@example.com",
+      "phone": "+91 91234 56789",
+      "address": "Chennai, Tamil Nadu",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-05T10:00:00.000Z"
+    }
+  ],
+  "leads": [
+    {
+      "id": "l1",
+      "name": "Riya Foods",
+      "email": "riya@example.com",
+      "phone": "+91 90000 11111",
+      "source": "Instagram",
+      "status": "NEW",
+      "notes": "Interested in bulk tea orders.",
+      "createdAt": "2026-09-10T10:00:00.000Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "o1",
+      "orderNumber": "TCS-1001",
+      "customerId": "c1",
+      "amount": 12500,
+      "status": "PAID",
+      "createdAt": "2026-09-12T10:00:00.000Z"
+    },
+    {
+      "id": "o2",
+      "orderNumber": "TCS-1002",
+      "customerId": "c2",
+      "amount": 8200,
+      "status": "PENDING",
+      "createdAt": "2026-09-15T10:00:00.000Z"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Follow up with Ananya Traders",
+      "description": "Confirm next bulk order.",
+      "dueDate": "2026-10-01",
+      "priority": "HIGH",
+      "status": "PENDING",
+      "customerId": "c1"
+    }
+  ]
+}
